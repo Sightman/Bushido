@@ -1,50 +1,53 @@
-[
-	{
-		"command": "git config -l",
-		"action": "List all configuration variables already set up"
-	},
-	{
-		"command": "git config user.email=[myemail@example.com]",
-		"action": "Configures the user's email address"
-	},
-	{
-		"command": "git config user.name=[John Doe]",
-		"action": "Configures the user's name"
-	},
-	{
-		"command": "git diff",
-		"action": "Shows the changes made in the current staging"
-	},
-	{
-		"command": "git diff <commit_id_from> <commit_id_to>",
-		"action": "Shows the changes made to the commit <commit_id_to> from the commit <commit_id_from>"
-	},
-	{
-		"command": "git checkout <commit_id> [file_name]",
-		"action": "Loads the commit <commit_id> changes made in [file_name]"
-	},
-	{
-		"command": "git rm <file_name>",
-		"action": "Removes <file_name> from the hard drive",
-	},
-	{
-		"command": "git rm --cached <file_name>",
-		"action": "Removes <file_name> from the staging area and the repository",
-	},
-	{
-		"command": "git rm --force <file_name>",
-		"action": "Removes <file_name> from the hard drive, the staging area and the repository"
-	},
-	{
-		"command": "git reset <commit_id> --soft",
-		"action": "Loads the commit <commit_id> keeping the last changes in the staging area"
-	},
-	{
-		"command": "git reset <commit_id> --hard",
-		"action": "Loads the commit <commit_id> discarding all changes in the staging area and the forward commits in the repository"
-	},
-	{
-		"command": "git reset HEAD [file_name]",
-		"action": "Removes the whole changes in [file_name] from the staging area"
-	}
+[{
+        "command": "git config -l",
+        "action": "List all configuration variables already set up"
+    },
+    {
+        "command": "git config user.email=[myemail@example.com]",
+        "action": "Configures the user's email address"
+    },
+    {
+        "command": "git config user.name=[John Doe]",
+        "action": "Configures the user's name"
+    },
+    {
+        "command": "git commit -am \"Message\"",
+        "action": "Confirms all changes of previously added files"
+    },
+    {
+        "command": "git diff",
+        "action": "Shows the changes made in the current staging"
+    },
+    {
+        "command": "git diff <commit_id_from> <commit_id_to>",
+        "action": "Shows the changes made to the commit <commit_id_to> from the commit <commit_id_from>"
+    },
+    {
+        "command": "git checkout <commit_id> [file_name]",
+        "action": "Loads the commit <commit_id> changes made in [file_name]"
+    },
+    {
+        "command": "git rm <file_name>",
+        "action": "Removes <file_name> from the hard drive",
+    },
+    {
+        "command": "git rm --cached <file_name>",
+        "action": "Removes <file_name> from the staging area and the repository",
+    },
+    {
+        "command": "git rm --force <file_name>",
+        "action": "Removes <file_name> from the hard drive, the staging area and the repository"
+    },
+    {
+        "command": "git reset <commit_id> --soft",
+        "action": "Loads the commit <commit_id> keeping the last changes in the staging area"
+    },
+    {
+        "command": "git reset <commit_id> --hard",
+        "action": "Loads the commit <commit_id> discarding all changes in the staging area and the forward commits in the repository"
+    },
+    {
+        "command": "git reset HEAD [file_name]",
+        "action": "Removes the whole changes in [file_name] from the staging area"
+    }
 ]
