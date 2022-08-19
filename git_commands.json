@@ -28,11 +28,11 @@
     },
     {
         "command": "git rm <file_name>",
-        "action": "Removes <file_name> from the hard drive",
+        "action": "Removes <file_name> from the hard drive"
     },
     {
         "command": "git rm --cached <file_name>",
-        "action": "Removes <file_name> from the staging area and the repository",
+        "action": "Removes <file_name> from the staging area and the repository"
     },
     {
         "command": "git rm --force <file_name>",
