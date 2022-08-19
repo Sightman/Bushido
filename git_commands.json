@@ -1,5 +1,17 @@
 [
 	{
+		"command": "git config -l",
+		"action": "List all configuration variables already set up"
+	},
+	{
+		"command": "git config user.email=[myemail@example.com]",
+		"action": "Configures the user's email address"
+	},
+	{
+		"command": "git config user.name=[John Doe]",
+		"action": "Configures the user's name"
+	},
+	{
 		"command": "git diff",
 		"action": "Shows the changes made in the current staging"
 	},
