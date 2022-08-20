@@ -49,5 +49,13 @@
     {
         "command": "git reset HEAD [file_name]",
         "action": "Removes the whole changes in [file_name] from the staging area"
+    },
+    {
+        "command": "git remote add <ref-name> <repo-URL>",
+        "action": "Links the local repo with a remote one labeled as ref-name"
+    },
+    {
+        "command": "git pull <ref-name> <branch-name> [--allow-unrelated-histories] [--rebase=false]",
+        "action": "Merges history from the branch branch-name of ref-name repo and optionally allows fetching though the remote history doesn't match the local counterpart and disable the rebase flag"
     }
 ]
