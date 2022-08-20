@@ -89,5 +89,17 @@
     {
         "command": "git show-ref --tags",
         "action": "Shows the commits hashcode with its associated tag"
+    },
+    {
+        "command": "git push <ref-name> <branch-name> --tags",
+        "action": "Merges the local branch tags with the <branch-name> tags of the repo <ref-name>"
+    },
+    {
+        "command": "git tag -d <tag>",
+        "action": "Deletes the tag <tag> from the local repo"
+    },
+    {
+        "command": "git push <ref-name> :refs/tags/<tag>",
+        "action": "Updates the reference to the tag <tag> in the remote repo <ref-name>"
     }
 ]
