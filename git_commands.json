@@ -52,10 +52,14 @@
     },
     {
         "command": "git remote add <ref-name> <repo-URL>",
-        "action": "Links the local repo with a remote one labeled as ref-name"
+        "action": "Links the local repo with a remote one located in <repo-URL> and set its reference as <ref-name>"
     },
     {
         "command": "git pull <ref-name> <branch-name> [--allow-unrelated-histories] [--rebase=false]",
-        "action": "Merges history from the branch branch-name of ref-name repo and optionally allows fetching though the remote history doesn't match the local counterpart and disable the rebase flag"
+        "action": "Merges history from the branch <branch-name> of <ref-name> repo and optionally allows fetching though the remote history doesn't match the local counterpart and disable the rebase flag"
+    },
+    {
+        "command": "git remote set-url <ref-name> <repo-URL>",
+        "action": "Replaces the current <ref-name> repo URL with which is specified by <repo-URL>"
     }
 ]
