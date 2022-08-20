@@ -101,5 +101,12 @@
     {
         "command": "git push <ref-name> :refs/tags/<tag>",
         "action": "Updates the reference to the tag <tag> in the remote repo <ref-name>"
+    }, {
+        "command": "git show-branch [--all]",
+        "action": "Shows all branches history"
+    },
+    {
+        "command": "git push <ref-name> <local-branch>",
+        "action": "Pushes the local branch <local-branch> to the remote repo <ref-name>"
     }
 ]
