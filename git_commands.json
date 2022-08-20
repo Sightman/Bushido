@@ -61,5 +61,33 @@
     {
         "command": "git remote set-url <ref-name> <repo-URL>",
         "action": "Replaces the current <ref-name> repo URL with which is specified by <repo-URL>"
+    },
+    {
+        "command": "git log --all",
+        "action": "Shows the whole project history"
+    },
+    {
+        "command": "git log --all --graph",
+        "action": "Show the whole project history branches graph"
+    },
+    {
+        "command": "git log --all --graph --decorate",
+        "action": "Shows the whole project history branches graph in color"
+    },
+    {
+        "command": "git log --all --graph --decorate --oneline",
+        "action": "Shows the whole project history branches compact graph in color"
+    },
+    {
+        "command": "git tag -a <tag> -m \"Message\" <hashcode>",
+        "action": "Adds a tag to a commit identified by its hashcode"
+    },
+    {
+        "command": "git tag",
+        "action": "Shows the current tags"
+    },
+    {
+        "command": "git show-ref --tags",
+        "action": "Shows the commits hashcode with its associated tag"
     }
 ]
