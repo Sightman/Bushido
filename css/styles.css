@@ -31,6 +31,11 @@ body {
     font-weight: bold;
 }
 
+#header #logo {
+    width: 20px;
+    vertical-align: middle;
+}
+
 #header #tagline {
     padding: 0 0 0 1em;
     font-size: 0.8em;
