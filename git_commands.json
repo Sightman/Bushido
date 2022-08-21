@@ -108,5 +108,9 @@
     {
         "command": "git push <ref-name> <local-branch>",
         "action": "Pushes the local branch <local-branch> to the remote repo <ref-name>"
+    },
+    {
+        "command": "git clone <repo-URL>",
+        "action": "Downloads a copy fo the project stored in the <repo-URL>"
     }
 ]
