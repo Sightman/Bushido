@@ -45,3 +45,17 @@ body {
 #post {
     padding: 1em;
 }
+
+#footer {
+    padding: 0.5em;
+    background-color: darkcyan;
+    color: #50a6f8ff;
+    text-align: center;
+}
+
+#footer a {
+    color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+}
