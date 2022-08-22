@@ -145,5 +145,9 @@
     {
         "command": "git clean -f",
         "action": "Deletes untracked files from the repo"
+    },
+    {
+        "command": "git cherry pick <commit-hash>",
+        "action": "Retrieves the commit <commit-hash> into the current branch"
     }
 ]
