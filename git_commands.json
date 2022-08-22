@@ -157,5 +157,9 @@
     {
         "command": "git commit --amend",
         "action": "Adds new changes to the last commit. It asks for an update to the commit message if needed"
+    },
+    {
+        "command": "git log --stat",
+        "action": "Shows the statisticsof the last commit"
     }
 ]
