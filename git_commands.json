@@ -137,5 +137,13 @@
     {
         "command": "git stash drop",
         "action": "Deletes the stashed changes"
+    },
+    {
+        "command": "git clean --dry-run",
+        "action": "Simulates the cleaning process to explore which files are going to be deleted from the repo"
+    },
+    {
+        "command": "git clean -f",
+        "action": "Deletes untracked files from the repo"
     }
 ]
