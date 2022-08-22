@@ -169,5 +169,9 @@
     {
         "command": "git log -S <exp>",
         "action": "Searches for occurences and matches of <exp> in the commits"
+    },
+    {
+        "command": "git config --global alias.stats \"shortlog -sn --all --no-merges\"",
+        "action": "Adds the alias stats to the global configuration of the local Git installation. The alias stats executes the command: shortlog -sn --all --no-merges"
     }
 ]
