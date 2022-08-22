@@ -149,5 +149,9 @@
     {
         "command": "git cherry pick <commit-hash>",
         "action": "Retrieves the commit <commit-hash> into the current branch"
+    },
+    {
+        "command": "git reflog",
+        "action": "Shows the whole project history even the deleted branchs or reset commits"
     }
 ]
