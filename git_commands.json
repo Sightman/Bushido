@@ -117,5 +117,25 @@
     {
         "command": "git rebase <branch-name>",
         "action": "Overrites the project history of current auxiliary branch merging the history of the branch <branch-name> as if all commits from the current auxiliary branch were made after the commits from the branch <branch-name>.\nWarning! You must first check out to the auxiliary branch you're willing to rebase with the main branch history and then rebase the main branch history with the auxiliary branch."
+    },
+    {
+        "command": "git stash",
+        "action": "Saves draft changes made in the current branch without performing a commit"
+    },
+    {
+        "command": "git stash list",
+        "action": "Lists all stashes in the current branch"
+    },
+    {
+        "command": "git stash pop",
+        "action": "Retrieves the stashed changes"
+    },
+    {
+        "command": "git stash branch <branch-name>",
+        "action": "Retrieves the stashed changes into the branch <branch-name>"
+    },
+    {
+        "command": "git stash drop",
+        "action": "Deletes the stashed changes"
     }
 ]
