@@ -181,5 +181,9 @@
     {
         "command": "git blame <file-ref> -L<<[1..9]^1>,<[0..9]*^1>> -c",
         "action": "Shows who made changes to the file in <file-ref> (path and name) from one line to another with an indented format"
+    },
+    {
+        "command": "git branch -[r|a]",
+        "action": "Show the remote branches only or all branches"
     }
 ]
