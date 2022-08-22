@@ -161,5 +161,13 @@
     {
         "command": "git log --stat",
         "action": "Shows the statisticsof the last commit"
+    },
+    {
+        "command": "git grep [-[n|c]] <exp>",
+        "action": "Searches for occurences or matches of <exp> in the project files"
+    },
+    {
+        "command": "git log -S <exp>",
+        "action": "Searches for occurences and matches of <exp> in the commits"
     }
 ]
