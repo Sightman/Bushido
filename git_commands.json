@@ -173,5 +173,13 @@
     {
         "command": "git config --global alias.stats \"shortlog -sn --all --no-merges\"",
         "action": "Adds the alias stats to the global configuration of the local Git installation. The alias stats executes the command: shortlog -sn --all --no-merges"
+    },
+    {
+        "command": "git blame -c <file-name>",
+        "action": "Shows who made which changes in the file <file-name> with indents"
+    },
+    {
+        "command": "git blame <file-ref> -L<<[1..9]^1>,<[0..9]*^1>> -c",
+        "action": "Shows who made changes to the file in <file-ref> (path and name) from one line to another with an indented format"
     }
 ]
