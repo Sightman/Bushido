@@ -153,5 +153,9 @@
     {
         "command": "git reflog",
         "action": "Shows the whole project history even the deleted branchs or reset commits"
+    },
+    {
+        "command": "git commit --amend",
+        "action": "Adds new changes to the last commit. It asks for an update to the commit message if needed"
     }
 ]
