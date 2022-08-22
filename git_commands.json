@@ -101,7 +101,8 @@
     {
         "command": "git push <ref-name> :refs/tags/<tag>",
         "action": "Updates the reference to the tag <tag> in the remote repo <ref-name>"
-    }, {
+    },
+    {
         "command": "git show-branch [--all]",
         "action": "Shows all branches history"
     },
@@ -112,5 +113,9 @@
     {
         "command": "git clone <repo-URL>",
         "action": "Downloads a copy fo the project stored in the <repo-URL>"
+    },
+    {
+        "command": "git rebase <branch-name>",
+        "action": "Overrites the project history of current auxiliary branch merging the history of the branch <branch-name> as if all commits from the current auxiliary branch were made after the commits from the branch <branch-name>.\nWarning! You must first check out to the auxiliary branch you're willing to rebase with the main branch history and then rebase the main branch history with the auxiliary branch."
     }
 ]
